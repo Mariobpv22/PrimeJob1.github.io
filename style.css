@@ -10,6 +10,10 @@ html {
 }
 
 body {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/006/618/501/non_2x/liquid-background-illustration-free-vector.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   font-family: 'Poppins', sans-serif;
   display: flex;
   flex-direction: column;
@@ -107,7 +111,7 @@ nav {
 
 /* Estilos de la sección de Empleos */
 .oportunities {
-  background-color: #C783E1;
+  background-color:#cb9bde;
   padding: 80px 0 0;
   text-align: center;
   height: 100%; /*Tamanio de la seccion empleos*/
@@ -181,7 +185,7 @@ footer {
   background-color: #f9f9f9;
   padding: 40px;
   text-align: center;
-  margin: 20px auto;
+  margin: 120px auto;
   max-width: 800px;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -249,13 +253,12 @@ footer {
   background-color: #f9f9f9;
   padding: 130px;
   text-align: center;
-  margin: 20px auto;
+  margin: 140px auto;
   max-width: 800px;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   align-items: center;
 }
-
 .login-form h2 {
   font-size: 2.5rem;
   margin-bottom: 20px;
@@ -315,7 +318,8 @@ footer {
 
 /* Estilos para la sección de testimonios */
 .testimonials {
-  background-color: #f5f5f5;
+  background-color:#e6ccef;
+  background-size:cover;
   padding: 80px 0;
   text-align: center;
 }
@@ -450,3 +454,53 @@ footer {
   }
 }
 
+/*Estilos para profile*/
+.profile-container {
+  text-align: center;
+  max-width: 800px;
+  margin: 140px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-container img.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid black;
+  margin:20px 0 20px 0;
+}
+
+.profile-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left; /* Alinear texto a la izquierda */
+}
+
+.profile-info p {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Estilo para la tabla de información */
+.profile-info table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.profile-info td {
+  padding: 10px;
+}
+
+.profile-info td:first-child {
+  width: 50%; /* Ancho para el primer td */
+}
